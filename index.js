@@ -248,10 +248,10 @@ console.log(template);
 // .forEach()
 // cicla tutti gli elelementi di una array fornito, e ne ritorna l'elemento ciclato in quel momento come parametro della funzione callback (interna)
 
-// for (let i = 0; i < letters.length; i++) {
-//   const elem = letters[i];
-//   console.log(elem);
-// }
+for (let i = 0; i < letters.length; i++) {
+  const elem = letters[i];
+  console.log(elem);
+}
 
 letters.forEach(function (elem) {
   console.log("FOREACH elem", elem);
